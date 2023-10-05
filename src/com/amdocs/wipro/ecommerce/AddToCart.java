@@ -33,16 +33,16 @@ public class AddToCart
 			while(rs.next())
 			{
 				System.out.println("product Id>> "+rs.getString(1));
-				System.out.println("product Name>> "+rs.getString(3));
+				System.out.println("product Name>>> "+rs.getString(3));
 				System.out.println("product Discription>> "+rs.getString(2));
 				System.out.println("product Price>> "+rs.getString(4));
-				System.out.println("Available Quantity>> "+rs.getString(5));
+				System.out.println("Available Quantity>>> "+rs.getString(5));
 				System.out.println();
 				
 				 productPrice = rs.getString(4);
 				 
 				
-				System.out.println("your product added into the cart");
+				System.out.println("your product added into the cart ");
 			}	
 			} 
 			catch (Exception e) 
