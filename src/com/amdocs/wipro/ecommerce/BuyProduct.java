@@ -11,9 +11,9 @@ public class BuyProduct extends AddToCart
 	public void buyProduct()
 	{
 		System.out.println();
-		System.out.println("Do you want to buy product");
+		System.out.println("Do you want to buy product ");
 		
-		System.out.println("yes/No");
+		System.out.println("yes/No ");
 		
 		Scanner sc = new Scanner(System.in);
 		String d=sc.next();
@@ -31,7 +31,7 @@ public class BuyProduct extends AddToCart
 		}
 		if(d.equals("no"))
 		{
-			System.out.println("Thank you for using application");
+			System.out.println("Thank you for using application ");
 		}
 		
 		

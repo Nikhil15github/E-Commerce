@@ -18,7 +18,7 @@ public class ProductsList
 		
 			PreparedStatement pr = co.prepareStatement("insert into products(discription,name,price,quantity) values(?,?,?,?)");
 			
-			pr.setString(1, "4gb ram");
+			pr.setString(1, "8gb ram");
 			pr.setString(2, "Redmi note 10");
 			pr.setInt(3, 15000);
 			pr.setInt(4, 6);
@@ -39,7 +39,7 @@ public class ProductsList
 			PreparedStatement pr2 = co1.prepareStatement("insert into products(discription,name,price,quantity) values(?,?,?,?)");
 			
 			pr2.setString(1, "6gb ram");
-			pr2.setString(2, "Samsung 23utra");
+			pr2.setString(2, "Samsung 23ultra");
 			pr2.setInt(3, 90000);
 			pr2.setInt(4, 3);
 			pr2.executeUpdate();
@@ -49,7 +49,7 @@ public class ProductsList
 			PreparedStatement pr3 = co1.prepareStatement("insert into products(discription,name,price,quantity) values(?,?,?,?)");
 			
 			pr3.setString(1, "8gb ram");
-			pr3.setString(2, "onepluse 10R");
+			pr3.setString(2, "onepluse 11R");
 			pr3.setInt(3, 55000);
 			pr3.setInt(4, 7);
 			
